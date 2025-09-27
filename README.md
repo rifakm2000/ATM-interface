@@ -30,18 +30,3 @@ This project simulates the working of an ATM machine including account creation,
 - **Backend/Database** → SQLite  
 - **Security** → PBKDF2 PIN hashing with random salt  
 
----
-
-## 🖥️ Screenshots  
-
-> Add screenshots here after running the app. Example:  
-- Main Menu  
-- Create Account Form  
-- Account Dashboard  
-- Mini Statement  
-- Admin Panel  
-
-*(You can add screenshots by pressing `PrtSc` and saving as images in a `/screenshots` folder, then link them like:)*  
-
-```markdown
-![Main Menu](screenshots/main_menu.png)
