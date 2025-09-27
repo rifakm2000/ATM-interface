@@ -1,0 +1,70 @@
+{
+  "1001": {
+    "name": "Alice",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "balance": 5000.0,
+    "transactions": []
+  },
+  "1002": {
+    "name": "Bob",
+    "pin_hash": "fe2592b42a727e977f055947385b709cc82b16b9a87f88c6abf3900d65d0cdc3",
+    "balance": 3000.0,
+    "transactions": []
+  },
+  "1029384756": {
+    "name": "rifa",
+    "pin_hash": "38083c7ee9121e17401883566a148aa5c2e2d55dc53bc4a94a026517dbff3c6b",
+    "balance": 1000.0,
+    "transactions": [
+      {
+        "time": "2025-09-22 19:37:15",
+        "type": "deposit",
+        "amount": 1000.0,
+        "balance": 1000.0,
+        "note": "Initial deposit"
+      },
+      {
+        "time": "2025-09-22 19:38:05",
+        "type": "deposit",
+        "amount": 500.0,
+        "balance": 1500.0,
+        "note": "Cash deposit"
+      },
+      {
+        "time": "2025-09-22 19:38:17",
+        "type": "withdraw",
+        "amount": -1000.0,
+        "balance": 500.0,
+        "note": "Cash withdrawal"
+      },
+      {
+        "time": "2025-09-22 19:40:03",
+        "type": "transfer_in",
+        "amount": 500.0,
+        "balance": 1000.0,
+        "note": "Transfer from 1234567890"
+      }
+    ]
+  },
+  "1234567890": {
+    "name": "rif",
+    "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "balance": 500.0,
+    "transactions": [
+      {
+        "time": "2025-09-22 19:39:33",
+        "type": "deposit",
+        "amount": 1000.0,
+        "balance": 1000.0,
+        "note": "Initial deposit"
+      },
+      {
+        "time": "2025-09-22 19:40:03",
+        "type": "transfer_out",
+        "amount": -500.0,
+        "balance": 500.0,
+        "note": "Transfer to 1029384756"
+      }
+    ]
+  }
+}
